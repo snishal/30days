@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+a:link, a:visited, a:hover, a:active{
+	color: #101010;
+	text-decoration: none;
+}
+
+.bg-peach{
+	background-color: #FFDAB9;
+}
+
+.btn-peach{
+	padding: 10px 30px;
+	background-color: #FFDAB9;	
+}
+
+.display-5{
+	font-size: 35px;
+}
+
+.display-6{
+	font-size: 25px;
+}
+
+hr{
+	height: .6px;
+	background-color: #333;
+}
+
+.bg {
+  background-image: url("/images/background.PNG");
+  background-position: 10% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.activity{
+	padding: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	font-size: 25px;
+}
